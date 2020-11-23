@@ -1,0 +1,139 @@
+{
+  "applePhones": [
+    {
+      "id": "00000007-0000-4000-a000-000000000001",
+      "name": "iPhone 12 Pro Max",
+      "description": "Apple iPhone 12 Pro Max 128GB 5G Smartphone Pacific Blue",
+      "imageUrl": "https://s3.eu-central-1.amazonaws.com/plesioimages/ProductImages/600x600/f2bb66906f9e91f0c159d02c8d96d0615f870373374b4.3563235.jpg",
+      "price": 1300,
+      "basePrice": 1100,
+      "props": "{\"color\": \"Pacific Blue\"}",
+      "totalInStock": 141
+    },
+    {
+      "id": "00000007-0000-4000-a000-000000000002",
+      "name": "iPhone 12 mini",
+      "description": "Apple iPhone 12 mini 256GB 5G Smartphone Blue",
+      "imageUrl": "https://s3.eu-central-1.amazonaws.com/plesioimages/ProductImages/600x600/3562743.jpg",
+      "price": 800,
+      "basePrice": 750,
+      "props": "{\"color\": \"Blue\"}",
+      "totalInStock": 11
+    }
+  ],
+
+  "samsungPhones": [
+    {
+      "id": "00000007-0000-4000-a000-000000000003",
+      "name": "Galaxy S20 FE",
+      "description": "Samsung Galaxy S20 FE in a pack with PowerCard 5Ah",
+      "imageUrl": "https://www.a1.bg/public/file/id/82ab7aa30c681b7318943b9366f1fb94/s20-lavender-prod.png",
+      "price": 650,
+      "basePrice": 600,
+      "props": "{\"color\": \"Black\"}",
+      "totalInStock": 100
+    },
+    {
+      "id": "00000007-0000-4000-a000-000000000004",
+      "name": "Samsung Galaxy Z Fold2",
+      "description": "Latest and best folding phone from Samsung",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/levant/galaxy-note20/gallery/levant-galaxy-z-fold2-f916-sm-f916bznqmid-frontmysticbronze-thumb-274060930?",
+      "price": 1200,
+      "basePrice": 1199,
+      "props": "{\"color\": \"Black\"}",
+      "totalInStock": 71
+    }
+  ],
+
+  "nikeShoes": [
+    {
+      "id": "00000007-0000-4000-a000-000000000005",
+      "name": "Nike Air Max Plus 3 Leather",
+      "description": "Featuring the iconic Tuned Air technology of its predecessors, the Nike Air Max Plus 3.",
+      "imageUrl": "",
+      "price": 249.99,
+      "basePrice": 202,
+      "props": "{\"color\": \"White\", \"size\": \"L\"}",
+      "totalInStock": 0
+    },
+    {
+      "id": "00000007-0000-4000-a000-000000000006",
+      "name": "Nike Air Max Vistascape",
+      "description": "With '90s hiking heritage stitched into every detail, the trail-inspired Nike Air Max.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7c11c9a8-dec5-466c-8d64-b7333dce6f6a/air-max-vistascape-shoe-6nKTDr.jpg",
+      "price": 239.89,
+      "basePrice": 200,
+      "props": "{\"color\": \"Brown\", \"size\": \"M\"}",
+      "totalInStock": 11
+    }
+  ],
+
+  "adidasShoes": [
+    {
+      "id": "00000007-0000-4000-a000-000000000007",
+      "name": "Gazelle FU9667",
+      "description": "Casual and sport shoe",
+      "imageUrl": "https://www.obuvki.bg/media/catalog/product/cache/image/650x650/0/0/0000206759818_01_rz.jpg",
+      "price": 105.50,
+      "basePrice": 50,
+      "props": "{\"color\": \"Black\", \"size\": \"S\"}",
+      "totalInStock": 50
+    },
+    {
+      "id": "00000007-0000-4000-a000-000000000008",
+      "name": "X Ghosted.4 Tf J FW6801",
+      "description": "Proudly designed best football shoe",
+      "imageUrl": "https://www.obuvki.bg/media/catalog/product/cache/image/650x650/0/0/0000206753632_01_rz.jpg",
+      "price": 48.95,
+      "basePrice": 10,
+      "props": "{\"color\": \"White\", \"size\": \"M\"}",
+      "totalInStock": 41
+    }
+  ],
+
+  "crossBikes": [
+    {
+      "id": "00000007-0000-4000-a000-000000000009",
+      "name": "NOMAD 26",
+      "description": "Outdoor activities were never so close",
+      "imageUrl": "https://www.dimibike.com/images/products/large/cross-nomad-26-inch.jpg",
+      "price": 250,
+      "basePrice": 199,
+      "props": "{\"color\": \"Black\", \"material\": \"Aluminum\"}",
+      "totalInStock": 5
+    },
+    {
+      "id": "00000007-0000-4000-a000-000000000010",
+      "name": "LAGUNA MTB",
+      "description": "Ladies can no cross the streets in a flash.",
+      "imageUrl": "https://www.dimibike.com/images/products/large/damski-velosiped-laguna.jpg",
+      "price": 270,
+      "basePrice": 199,
+      "props": "{\"color\": \"White\", \"material\": \"Steel\"}",
+      "totalInStock": 0
+    }
+  ],
+
+  "yamahaBikes": [
+    {
+      "id": "00000007-0000-4000-a000-000000000011",
+      "name": "MT-10",
+      "description": "The pinnacle of MT crossplane torque, distinct styling and agile handling that lets you dominate the darkness.",
+      "imageUrl": "https://yamaha.scdn5.secure.raxcdn.com/library/img.jpg?id=5db75a3e2a0ab70310e4cea1&w=1600",
+      "price": 15000,
+      "basePrice": 7000,
+      "props": "{\"color\": \"Black\"}",
+      "totalInStock": 32
+    },
+    {
+      "id": "00000007-0000-4000-a000-000000000012",
+      "name": "YZ450F",
+      "description": "Race like the Yamaha factory team with your own Monster Energy‑inspired, class‑leading YZ450F.",
+      "imageUrl": "https://yamaha.scdn5.secure.raxcdn.com/library/img.jpg?id=5efcfec32a0ab73df8529711&w=1600",
+      "price": 11000,
+      "basePrice": 7500,
+      "props": "{\"color\": \"Blue\"}",
+      "totalInStock": 12
+    }
+  ]
+}

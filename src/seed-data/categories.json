@@ -1,0 +1,17 @@
+[
+  {
+    "id": "00000008-0000-4000-a000-000000000001",
+    "name": "Phones",
+    "description": "Category related to phones"
+  },
+  {
+    "id": "00000008-0000-4000-a000-000000000002",
+    "name": "Shoes",
+    "description": "Category related to shoes"
+  },
+  {
+    "id": "00000008-0000-4000-a000-000000000003",
+    "name": "Bikes",
+    "description": "Category related to bicycles"
+  }
+]

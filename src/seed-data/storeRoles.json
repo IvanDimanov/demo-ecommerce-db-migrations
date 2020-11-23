@@ -1,0 +1,22 @@
+[
+  {
+    "id": "00000003-0000-4000-a000-000000000001",
+    "name": "Owner",
+    "description": "Seller that has full access to all of his stores",
+    "code": "sellerOwner"
+  },
+
+  {
+    "id": "00000003-0000-4000-a000-000000000002",
+    "name": "Manager",
+    "description": "Appointed seller that maintains specific stores",
+    "code": "sellerManager"
+  },
+
+  {
+    "id": "00000003-0000-4000-a000-000000000003",
+    "name": "Advertiser",
+    "description": "Appointed seller that maintains only commercial info (such as descriptions) for specific stores",
+    "code": "sellerAdvertiser"
+  }
+]

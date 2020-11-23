@@ -1,0 +1,96 @@
+{
+  "BUL": [
+    {
+      "addressLine1": "Serdika str",
+      "addressLine2": "5",
+      "city": "Sofia",
+      "state": "Sofia",
+      "country": "Bulgaria",
+      "postalCode": "1000"
+    },
+    {
+      "addressLine1": "3ti Mart",
+      "addressLine2": "123",
+      "city": "Plovdiv",
+      "state": "Plovdiv",
+      "country": "Bulgaria",
+      "postalCode": "11200"
+    }
+  ],
+
+  "BEL": [
+    {
+      "addressLine1": "Rue des Moissons",
+      "addressLine2": "15",
+      "city": "Brussels",
+      "state": "Brussels",
+      "country": "Belgium",
+      "postalCode": "1044"
+    },
+    {
+      "addressLine1": "Brandstraat",
+      "addressLine2": "31",
+      "city": "Ghent",
+      "state": "East Flanders",
+      "country": "Belgium",
+      "postalCode": "9030"
+    }
+  ],
+
+  "KOR": [
+    {
+      "addressLine1": "Huam-ro",
+      "addressLine2": "11",
+      "city": "Seoul",
+      "state": "Seoul",
+      "country": "South Korea",
+      "postalCode": "100-015"
+    },
+    {
+      "addressLine1": "Dangsan-ro",
+      "addressLine2": "1",
+      "city": "Daegu",
+      "state": "Daegu",
+      "country": "South Korea",
+      "postalCode": "700-081"
+    }
+  ],
+
+  "USA": [
+    {
+      "addressLine1": "9th ave",
+      "addressLine2": "10",
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "postalCode": "10001"
+    },
+    {
+      "addressLine1": "st Gibson",
+      "addressLine2": "6",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "USA",
+      "postalCode": "78616"
+    }
+  ],
+
+  "CHN": [
+    {
+      "addressLine1": "Chongxi rd",
+      "addressLine2": "7",
+      "city": "Shanghai",
+      "state": "Jiangsu",
+      "country": "China",
+      "postalCode": "200001"
+    },
+    {
+      "addressLine1": "Chaoyang",
+      "addressLine2": "104",
+      "city": "Beijing",
+      "state": "Peking",
+      "country": "China",
+      "postalCode": "100001"
+    }
+  ]
+}

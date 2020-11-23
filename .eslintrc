@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
+
+  "env": {
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+
+  "rules": {
+    "no-invalid-this": 0,
+    "max-len": [
+      2,
+      130,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false
+      }
+    ],
+    "require-atomic-updates": 0,
+    "no-extra-semi": 0,
+    "indent": 0,
+    "semi": ["error", "never", {"beforeStatementContinuationChars": "always"}],
+    "operator-linebreak": [
+      "error",
+      "after",
+      {"overrides": {"?": "before", ":": "before"}}
+    ],
+    "quote-props": 0,
+    "object-curly-spacing": ["error", "always"],
+    "new-cap": [2, {"capIsNew": false}]
+  }
+}

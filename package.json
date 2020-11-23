@@ -1,0 +1,47 @@
+{
+  "name": "demo-ecommerce-db-migrations",
+  "description": "Demo eCommerce DB Migrations - Scripts to update and sync all DB entities and relations",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "readme": "README.md",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@hapi/joi": "17.1.1",
+    "dotenv": "8.2.0",
+    "faker": "5.1.0",
+    "pg": "8.4.2",
+    "sequelize": "6.3.5",
+    "sequelize-cli": "6.2.0",
+    "uuid": "8.3.1"
+  },
+  "scripts": {
+    "db": "node -r dotenv/config ./node_modules/.bin/sequelize-cli --options-path .sequelizerc -- ",
+    "db-create": "npm run db db:create",
+    "db-drop": "npm run db db:drop",
+    "db-migrate": "npm run db db:migrate",
+    "db-migrate-status": "node -r dotenv/config ./src/scripts/db-migrations-status",
+    "db-migrate-down": "node -r dotenv/config ./src/scripts/undo-last-db-migration",
+    "db-seed": "npm run db db:seed:all",
+    "db-seed-status": "node -r dotenv/config ./src/scripts/db-seeds-status",
+    "db-seed-down": "node -r dotenv/config ./src/scripts/undo-last-db-seed",
+    "db-setup": "npm run db-drop && npm run db-create && npm run db-migrate && npm run db-seed",
+    "lint": "eslint ./**/*.{js,jsx,ts,tsx}",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
+  "devDependencies": {
+    "cli-table3": "0.6.0",
+    "eslint": "7.13.0",
+    "eslint-config-google": "0.14.0",
+    "husky": "4.3.0",
+    "jest": "26.6.3"
+  }
+}

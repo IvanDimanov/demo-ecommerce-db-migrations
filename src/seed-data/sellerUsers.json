@@ -1,0 +1,64 @@
+{
+  "phoneStoreSellers": [
+    {
+      "id": "00000005-0000-4000-a000-000000000001",
+      "name": "Jane Adams",
+      "email": "jane.adams@apple.com",
+      "status": "active"
+    },
+    {
+      "id": "00000005-0000-4000-a000-000000000002",
+      "name": "John Mills",
+      "email": "john.mills@apple.com",
+      "status": "active"
+    },
+    {
+      "id": "00000005-0000-4000-a000-000000000003",
+      "name": "Jim Stone",
+      "email": "jim.stone@samsung.com",
+      "status": "active"
+    }
+  ],
+
+  "electronicsStoreSellers": [
+    {
+      "id": "00000005-0000-4000-a000-000000000004",
+      "name": "Bob Adams",
+      "email": "bob.adams@samsung.com",
+      "status": "active"
+    },
+    {
+      "id": "00000005-0000-4000-a000-000000000005",
+      "name": "Brian Mills",
+      "email": "brian.mills@samsung.com",
+      "status": "active"
+    },
+    {
+      "id": "00000005-0000-4000-a000-000000000006",
+      "name": "Bill Stone",
+      "email": "bill.stone@samsung.com",
+      "status": "active"
+    }
+  ],
+
+  "outdoorStoreSellers": [
+    {
+      "id": "00000005-0000-4000-a000-000000000007",
+      "name": "Clare Adams",
+      "email": "clare.adams@adidas.ger",
+      "status": "active"
+    },
+    {
+      "id": "00000005-0000-4000-a000-000000000008",
+      "name": "Chris Mills",
+      "email": "chris.mills@yamaha.com",
+      "status": "active"
+    },
+    {
+      "id": "00000005-0000-4000-a000-000000000009",
+      "name": "Carl Stone",
+      "email": "carl.stone@cross.bg",
+      "status": "active"
+    }
+  ]
+}
