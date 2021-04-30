@@ -1,4 +1,4 @@
-const Joi = require('@hapi/joi')
+const Joi = require('joi')
 
 /* Be sure that the Server will run only with filtered, valid, and converted Env VARs */
 const validateEnvVars = (schema) => {
